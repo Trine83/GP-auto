@@ -10,7 +10,7 @@ body {
     align-items: center;
     padding: 1rem;
     background-color: black;
-    color: #fff;
+    color: white;
   }
   
   .header-logo {
@@ -55,8 +55,9 @@ body {
     display: inline-block;
     width: 20px;
     height: 2px;
-    background-color: #fff;
+    background-color: #DB781D;
     position: relative;
+    color: #DB781D;
   }
   
   .header-menu-icon:before,
@@ -65,7 +66,7 @@ body {
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #DB781D;
     position: absolute;
     top: 0;
     left: 0;
@@ -121,6 +122,30 @@ body {
       transform: rotate(-45deg) translateY(-6px);
     }
   }
+
+  .image-container {
+    position: relative;
+  }
+  
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .image-text h2 {
+    margin-top: 0;
+  }
+  
+  .image-text p {
+    margin-bottom: 0;
+  }
+  
 
 
   .footer {
