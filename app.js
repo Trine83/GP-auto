@@ -35,3 +35,9 @@ function sendMessage() {
     messageInput.focus();
   }
 }
+
+function toggleChat() {
+    let chatContainer = document.getElementById("chat-container");
+    chatContainer.classList.toggle("hidden");
+  }
+  
