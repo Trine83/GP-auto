@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="font" href="./avenir_ff/AvenirLTStd-Roman.otf">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>GP auto</title>
+    <script async src="./JS/app.js"></script>
 </head>
+<body>
     <header class="header">
         <div class="header-logo">
           <a href="#"><img src="./assets/GPautologo.png" alt="Logo"></a>
@@ -27,9 +27,9 @@
         <button class="header-menu-toggle" aria-label="Menu">
           <span class="header-menu-icon"></span>
         </button>
-      </header>
+    </header>
 
-      <div class="image-container">
+    <div class="image-container">
         <img src="./assets/Gpbilde.png" alt="Beskrivelse av bildet">
         <div class="image-text">
           <h2></h2>
@@ -37,10 +37,10 @@
             våre bruktbiler vil gi deg den selvtilliten du trenger 
             for å erobre enhver vei med et smil!"</p>
         </div>
-      </div>
+    </div>
 
-      <div class="chat-wrapper">
-      <div class="chat-toggle" onclick="togglechat()">Chat med Martin</div>
+    
+    <div class="chat-wrapper hidden">
       <div id="chat-container">
         <div id="chat-messages"></div>
         <div id="chat-input">
@@ -49,12 +49,8 @@
         </div>
       </div>
     </div>
-  </div>
 
 
-    
-      
-      <script src="./JS/app.js"></script>
 
 <footer class="footer">
   <div class="footer-content">
@@ -81,8 +77,6 @@
   </div>
 </footer>
 
-
-
-    
+<div class="chat-toggle">Chat med Martin</div>
 </body>
 </html>
