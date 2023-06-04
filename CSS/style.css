@@ -125,9 +125,15 @@ body {
     }
   }
 
+  .banner {
+    width: 100%;
+    height: 200px;
+    
+  }
+
   .image-container {
     position: relative;
-    padding-top: 4 rem;
+    padding-top: 20rem;
     padding-bottom: 4 rem;
   }
   
