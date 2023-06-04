@@ -34,13 +34,12 @@ body {
     padding: 0;
   }
   
-  .header-nav ul:hover [
-    
-  ]
+  
   .header-nav li {
     margin: 0 1rem;
   }
   
+ 
   .header-nav a {
     color: #DB781D;
     text-decoration: none;
