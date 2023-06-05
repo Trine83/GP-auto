@@ -125,14 +125,60 @@ body {
     }
   }
 
-  
-    .bil-container {
-      flex-wrap: wrap ;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+  /*Her starter banner*/
+
+
+  .banner-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .banner-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .banner.caption {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translate(-50% -50%);
       text-align: center;
+      color: #DB781D;
     }
+
+    .banner-caption h2,
+    .banner-caption h3 {
+     margin: 0;
+     color: #DB781D;
+     
+    .banner-caption h2 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #DB781D;
+     
+
+    .image-caption h3 {
+      font-size: 18px;
+      font-weight: normal;
+      color: #DB781D;
+      
+    }
+
+
+
+
+  /*del 2 av nettside, finn din perfekte match*/
+    .bil-container {
+      flex-wrap: wrap;
+      text-align: center;
+      color: #DB781D;
+      justify-content: space-between;
+     }
     
     .bil-container h2 {
       margin: 20px 0;
@@ -140,69 +186,54 @@ body {
     
   
   
-  .scroll-content {
+  .bil-content {
     display: flex;
-    flex-direction: row;
+    
   }
   
-  .scroll-content img {
-    width: 50%; 
+  .bil-content img {
+    width: 55%; 
     height: auto;
-    object-fit: cover;
-    align-content: center;
+    padding: 30px;
   }
   
-  .scroll-container h2 {
+  .bil-container h2 {
     margin: 50px 0;
     color: #DB781D;
   }
 
   @media (max-width: 768px) {
-    .scroll-content img {
+    .bil-content img {
       width: auto;
       height: 150px; /* Juster høyden etter behov */
-     margin-right: 20px; /* Gi litt mellomrom mellom bildene */
+      margin-right: 20px; /* Gi litt mellomrom mellom bildene */
     }
   }
 
  
   
   
-  /*.banner {
-  
-      width: 100%;
-      height: 200px; 
-      background-color: black; 
-      justify-content: center;
-      align-items: center;
-      
-    }
 
-    .line-3 {
-      max-width: fit-content;
-    }
-    
-    
-  .slideshow {
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .slide {
-    display: flex;
-  }*/
-
+   
+/*siste bilde i nettside*/
   .image-container {
-    position:relative;
-    max-width: 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+   }
+
+   .image-container img {
+    width: 100%;
     height: auto;
-   
-   
-  }
+    display: block;
+    border-radius: 10px;
+    padding: :2 rem;
+   }
 
   @media screen and (max-width: 768px) {
     .image-container {
-      max-width: 80%;
+      max-width: 100%;
       flex-basis: 100%;
     }
   }
@@ -227,7 +258,7 @@ body {
     margin-bottom: 0;
   }
   
-
+/* chat begynner her*/
   #chat-container {
     max-width: 400px;
     margin: 0 auto;
