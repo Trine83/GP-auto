@@ -139,11 +139,11 @@ body {
       margin: 20px 0;
     }
     
-  }
+  
   
   .scroll-content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
   
   .scroll-content img {
@@ -158,11 +158,11 @@ body {
     color: #DB781D;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     .scroll-content img {
       width: auto;
       height: 150px; /* Juster høyden etter behov */
-      margin-right: 20px; /* Gi litt mellomrom mellom bildene */
+     margin-right: 20px; /* Gi litt mellomrom mellom bildene */
     }
   }
 
