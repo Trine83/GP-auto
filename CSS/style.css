@@ -165,7 +165,7 @@ body {
     .image-caption h3 {
       font-size: 18px;
       font-weight: normal;
-      color: #DB781D;
+      color: #DB781;
       
     }
 
@@ -177,7 +177,7 @@ body {
     .bil-container {
       flex-wrap: wrap;
       text-align: center;
-      color: #DB781D;
+      color: #F1C9A5;
       justify-content: space-between;
      }
     
@@ -200,7 +200,7 @@ body {
   
   .bil-container h2 {
     margin: 50px 0;
-    color: #DB781D;
+    color: #F1C9A5;
   }
 
   @media (max-width: 768px) {
@@ -246,7 +246,7 @@ body {
     transform: translate(-50%, -50%);
     background-color: rgba(0, 0, 0, 0.7);
     padding: 1rem;
-    color: #fff;
+    color: #F1C9A5;
     text-align: center;
     font-size: 20px;
   }
