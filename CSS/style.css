@@ -157,8 +157,6 @@ body {
     }
  
     .banner-caption h2 {
-      font-size: 36px;
-      font-weight: bold;
       margin-bottom: 10px;
       color: #DB781D;
       font-family: 'Playfair Display', serif;
@@ -170,6 +168,11 @@ body {
       padding: 1rem;
       text-align: center;
       font-size: 48px;
+    }
+    @media screen and (max-width: 768px) {
+      .banner-caption h2{
+        font-size: large;
+      }
     }
 
     .image-caption h3 {
@@ -192,7 +195,6 @@ body {
       justify-content: space-between;
       font-family: 'Playfair Display', serif;
 
-      padding: 3;
      }
     
     .bil-container h2 {
@@ -219,14 +221,19 @@ body {
   }
 
   @media (max-width: 768px) {
-    .bil-content img {
+    .bil-content {
       width: auto;
       height: 150px; /* Juster høyden etter behov */
       margin-right: 20px; /* Gi litt mellomrom mellom bildene */
+
     }
   }
 
- 
+  @media screen and (max-width: 768px) {
+    .bil-container h2 {
+      font-size: medium;
+    }
+  }
   
   
 
@@ -263,14 +270,18 @@ body {
     padding: 1rem;
     color: #F1C9A5;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Playfair Display', serif;
   }
-  
+
+
+  @media screen and (max-width: 768px) {
+    .image-text, h2{
+      font-size: small;
+    }
+  }
  
-    
- 
-  .image-text h2 {
+    .image-text h2 {
     margin-top: 0;
   }
   
@@ -358,10 +369,6 @@ body {
   align-items: center;
 }
 
-
-
-
-  
 
   .footer {
     background-color: black;
