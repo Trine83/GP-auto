@@ -155,7 +155,7 @@ body {
      margin: 0;
      color: #DB781D;
      
-    .banner-caption h2 {
+    /*.banner-caption h2 {
       font-size: 36px;
       font-weight: bold;
       margin-bottom: 10px;
@@ -167,12 +167,13 @@ body {
       font-weight: normal;
       color: #DB781D;
       
-    }
+    }*/
 
 
 
 
   /*del 2 av nettside, finn din perfekte match*/
+
     .bil-container {
       flex-wrap: wrap;
       text-align: center;
@@ -228,7 +229,7 @@ body {
     height: auto;
     display: block;
     border-radius: 10px;
-    padding: :2 rem;
+    /*padding: : 2rem;*/
    }
 
   @media screen and (max-width: 768px) {
