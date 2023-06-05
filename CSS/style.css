@@ -162,6 +162,14 @@ body {
       margin-bottom: 10px;
       color: #DB781D;
       font-family: 'Playfair Display', serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 1rem;
+      text-align: center;
+      font-size: 48px;
     }
 
     .image-caption h3 {
@@ -183,6 +191,8 @@ body {
       color: #F1C9A5;
       justify-content: space-between;
       font-family: 'Playfair Display', serif;
+
+      padding: 3;
      }
     
     .bil-container h2 {
