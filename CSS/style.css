@@ -42,7 +42,7 @@ body {
  
   .header-nav a {
     color: #DB781D;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 1.5rem;
   }
   
@@ -143,11 +143,11 @@ body {
   
   .scroll-content {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
   
   .scroll-content img {
-    width: 50%; /* Juster bredden etter behov */
+    width: 50%; 
     height: auto;
     object-fit: cover;
     align-content: center;
@@ -195,9 +195,17 @@ body {
 
   .image-container {
     position:relative;
-    display: flex;
-    align-self: flex-end;
+    max-width: 100%;
+    height: auto;
    
+   
+  }
+
+  @media screen and (max-width: 768px) {
+    .image-container {
+      max-width: 80%;
+      flex-basis: 100%;
+    }
   }
   
   .image-text {
