@@ -1,6 +1,4 @@
-html{
-  
-}
+
 body {
     background-color: black;
     
@@ -46,7 +44,6 @@ body {
  
   .header-nav a {
     color: #DB781D;
-    
     font-size: 1.5rem;
     font-family: 'Inter', sans-serif;
 
@@ -117,7 +114,7 @@ body {
       margin: 0;
       margin-bottom: 1rem;
     }
-    #header-nac ul 
+    
   
     .header-menu-toggle {
       display: block;
@@ -253,13 +250,15 @@ body {
     height: auto;
     display: block;
     border-radius: 10px;
-    /*padding: : 2rem;*/
+    
+    
    }
 
   @media screen and (max-width: 768px) {
     .image-container {
       max-width: 100%;
-      flex-basis: 100%;
+      flex-basis: 70%;
+      
     }
   }
   
